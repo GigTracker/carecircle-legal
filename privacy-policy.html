@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — CareCircle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green: #4E9268;
+    --bg: #F5EFE6;
+    --card: #FFFFFF;
+    --border: #E0D8CE;
+    --text: #2C2C2C;
+    --muted: #7A7A7A;
+    --radius: 14px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'DM Sans', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+    font-size: 16px;
+    padding: 0 20px 80px;
+  }
+
+  header {
+    max-width: 680px;
+    margin: 60px auto 48px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .icon {
+    width: 52px;
+    height: 52px;
+    background: var(--green);
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 26px;
+    flex-shrink: 0;
+  }
+
+  .app-name {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--text);
+  }
+
+  .app-sub {
+    font-size: 13px;
+    color: var(--muted);
+    margin-top: 2px;
+  }
+
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  .updated {
+    font-family: 'DM Mono', monospace;
+    font-size: 12px;
+    color: var(--muted);
+    margin-bottom: 40px;
+  }
+
+  .intro {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--green);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    margin-bottom: 40px;
+    color: #555;
+    font-size: 15px;
+  }
+
+  section { margin-bottom: 40px; }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  h2 .num {
+    font-family: 'DM Mono', monospace;
+    font-size: 11px;
+    color: var(--green);
+    background: rgba(78,146,104,0.1);
+    border: 1px solid rgba(78,146,104,0.2);
+    border-radius: 6px;
+    padding: 2px 8px;
+    font-weight: 500;
+  }
+
+  p { color: #555; margin-bottom: 12px; font-size: 15px; }
+
+  ul { list-style: none; padding: 0; margin: 0 0 12px; }
+
+  ul li {
+    color: #555;
+    font-size: 15px;
+    padding: 6px 0 6px 20px;
+    position: relative;
+    border-bottom: 1px solid var(--border);
+  }
+
+  ul li:last-child { border-bottom: none; }
+
+  ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 15px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--green);
+    opacity: 0.6;
+  }
+
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px 24px;
+    margin-bottom: 12px;
+  }
+
+  .card-title { font-weight: 600; color: var(--text); font-size: 14px; margin-bottom: 4px; }
+  .card-body { font-size: 14px; color: var(--muted); margin: 0; }
+
+  .badge {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 20px;
+    margin-left: 8px;
+    vertical-align: middle;
+    background: rgba(78,146,104,0.1);
+    color: var(--green);
+    border: 1px solid rgba(78,146,104,0.2);
+  }
+
+  .contact-box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 24px;
+    text-align: center;
+  }
+
+  .contact-box a { color: var(--green); text-decoration: none; font-weight: 500; }
+
+  footer {
+    max-width: 680px;
+    margin: 60px auto 0;
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+    font-family: 'DM Mono', monospace;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="icon">🤝</div>
+  <div>
+    <div class="app-name">CareCircle</div>
+    <div class="app-sub">Privacy Policy</div>
+  </div>
+</header>
+
+<main>
+  <p class="updated">Last updated: May 2026</p>
+
+  <div class="intro">
+    CareCircle helps families coordinate care for a loved one. We take the privacy of your family's health information seriously. This policy explains exactly what we collect, how it's used, and what we never do.
+  </div>
+
+  <section>
+    <h2><span class="num">01</span> What we collect</h2>
+    <div class="card">
+      <div class="card-title">Account information</div>
+      <p class="card-body">Your name and email address, used to create and identify your account. Stored securely via Supabase authentication.</p>
+    </div>
+    <div class="card">
+      <div class="card-title">Care circle data</div>
+      <p class="card-body">Information about the person being cared for — their name, date of birth, blood type, allergies, DNR status, insurance details, and care team contacts — entered by you and shared only with members of your circle.</p>
+    </div>
+    <div class="card">
+      <div class="card-title">Medications &amp; logs</div>
+      <p class="card-body">Medication names, doses, schedules, and administration logs (given, skipped, snoozed). This data is stored in your circle and visible only to circle members.</p>
+    </div>
+    <div class="card">
+      <div class="card-title">Tasks</div>
+      <p class="card-body">Care tasks created, claimed, and completed by circle members. Visible only to members of your circle.</p>
+    </div>
+    <div class="card">
+      <div class="card-title">Documents</div>
+      <p class="card-body">Files you upload (insurance cards, medical records, legal documents, etc.). Stored securely in Supabase Storage and accessible only to your circle members.</p>
+    </div>
+    <div class="card">
+      <div class="card-title">Activity feed</div>
+      <p class="card-body">A log of actions taken by circle members (e.g. "medication given", "task completed"). Used to keep all caregivers informed in real time.</p>
+    </div>
+    <div class="card">
+      <div class="card-title">Push notification token</div>
+      <p class="card-body">Used to send medication reminders to your device. Notifications are scheduled locally and never used for marketing.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">02</span> What we never do</h2>
+    <ul>
+      <li>Sell your data or your family's health information to third parties <span class="badge">Never</span></li>
+      <li>Use your data for advertising <span class="badge">Never</span></li>
+      <li>Share your circle's data with anyone outside your circle <span class="badge">Never</span></li>
+      <li>Access your contacts, photos, or camera (unless you choose to upload a document) <span class="badge">Never</span></li>
+      <li>Track your location <span class="badge">Never</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">03</span> Third-party services</h2>
+    <p>CareCircle uses the following third-party services, each with their own privacy policies:</p>
+    <div class="card">
+      <div class="card-title">Supabase</div>
+      <p class="card-body">Cloud database and file storage for all circle data. Data is encrypted in transit and at rest. <a href="https://supabase.com/privacy" style="color:#4E9268">supabase.com/privacy</a></p>
+    </div>
+    <div class="card">
+      <div class="card-title">Expo / React Native</div>
+      <p class="card-body">App framework used to build and deliver the app. Expo handles push notification delivery infrastructure. <a href="https://expo.dev/privacy" style="color:#4E9268">expo.dev/privacy</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">04</span> Data retention &amp; deletion</h2>
+    <p>Your data is stored as long as your account is active. You can sign out at any time from the Profile screen. To request permanent deletion of your account and all associated data, contact us at the email below and we will process your request within 30 days.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">05</span> Children's privacy</h2>
+    <p>CareCircle is intended for adult caregivers (18+). We do not knowingly collect personal information from anyone under 18. The care recipient's information is entered and managed by adult caregivers.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">06</span> Changes to this policy</h2>
+    <p>If we make material changes to this policy, we'll update the date at the top of this page. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">07</span> Contact</h2>
+    <div class="contact-box">
+      <p style="margin-bottom:8px; color:#888; font-size:14px;">Questions about your privacy?</p>
+      <a href="mailto:rickey.soto@pm.me">rickey.soto@pm.me</a>
+    </div>
+  </section>
+</main>
+
+<footer>© 2026 CareCircle · All rights reserved</footer>
+
+</body>
+</html>
